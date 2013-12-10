@@ -5,7 +5,7 @@ import java.io.File;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 /**
- * @author Nick
+ * @author Nick aa
  */
 public class APIConfig {
 

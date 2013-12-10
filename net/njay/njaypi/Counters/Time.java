@@ -1,5 +1,8 @@
 package net.njay.njaypi.Counters;
 
+/**
+ * @author Jordan
+ */
 public class Time {
 	private int seconds, minutes, hours = 0;
 	

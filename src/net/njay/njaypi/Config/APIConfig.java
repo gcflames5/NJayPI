@@ -11,7 +11,7 @@ public class APIConfig {
 
 	private File config = new File("APIConfig.yml");
 	private YamlConfiguration yml;
-	private int i;
+	private int i; //test
 	
 	public APIConfig(){
 		if (!config.exists())
@@ -22,4 +22,5 @@ public class APIConfig {
 	public YamlConfiguration getYMLConfig(){
 		return this.yml;
 	}
+
 }

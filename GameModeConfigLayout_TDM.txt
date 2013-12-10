@@ -1,0 +1,36 @@
+#[Team DeathMatch]
+MapName: #Name
+FileName: #Name of Folder (should match the world's name)
+GameType: #TDM or Teamdeathmatch
+NumberOfTeams: #Number
+Team1:
+	Name: #TeamName
+	Color: #RED, BLUE, GREEN, GOLD, PURPLE (To be used in chat/team armor)
+	SpawnLocation:
+		x: #Number
+		y: #Number
+		z: #Number
+		yaw: #Number
+		pitch: #Number
+		worldname: #WorldName
+	Classes: #Enter 1 name if no class selection, if multiple, separate names with ","
+Team2:
+	Name: #TeamName
+	Color: #RED, BLUE, GREEN, GOLD, PURPLE (To be used in chat/team armor)
+	SpawnLocation:
+		x: #Number
+		y: #Number
+		z: #Number
+		yaw: #Number
+		pitch: #Number
+		worldname: #WorldName
+	Classes: #Enter 1 name if no class selection, if multiple, separate names with ","
+#Add more teams based on NumberOfTeams specified
+
+#List the kits that correspond to classes listed under each team
+ClassName1: #Change to a class name above
+	DisplayName: #Name
+	AttributesReq: #Separate attributes with ","
+	InvSlots: #ExampleFormat: @iItemID:@dItemDamageVal:@aAmount:@nDisplayName:@lLore1:@lLore2:@lLore3
+	#Separate with ","
+	ArmorSlots: #Same as above

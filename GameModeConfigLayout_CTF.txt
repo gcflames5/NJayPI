@@ -1,0 +1,34 @@
+#[Capture the Flag]
+MapName: #Name
+FileName: #Name of Folder (should match the world's name)
+GameType: #TDM or Teamdeathmatch
+NumberOfTeams: #Number
+Team1:
+	SpawnLocation:
+		x: #Number
+		y: #Number
+		z: #Number
+		yaw: #Number
+		pitch: #Number
+Team2:
+	SpawnLocation:
+		x: #Number
+		y: #Number
+		z: #Number
+		yaw: #Number
+		pitch: #Number
+#Add more teams based on NumberOfTeams specified
+NumberOfFlags: #Number
+	Flag1:
+		x:
+		y:
+		z:
+	Flag2:
+		x:
+		y:
+		z:
+	Flag3:
+		x:
+		y:
+		z:
+#Add more flags based on NumberOfFlags specified

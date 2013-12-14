@@ -1,7 +1,6 @@
 package net.njay.njaypi.Plugin;
 
 import net.njay.njaypi.Config.APIConfig;
-import net.njay.njaypi.Logger.Logger;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;

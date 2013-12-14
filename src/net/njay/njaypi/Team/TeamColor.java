@@ -1,5 +1,8 @@
 package net.njay.njaypi.Team;
 
+/**
+ * @author Nick
+ */
 public enum TeamColor {
 	RED("Red"), BLUE("Blue"), GREEN("Green"), GOLD("Gold"), PURPLE("Purple");
 	

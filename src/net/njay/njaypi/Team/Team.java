@@ -2,9 +2,11 @@ package net.njay.njaypi.Team;
 
 import java.util.ArrayList;
 
+import net.njay.njaypi.Config.TeamConfig;
 import net.njay.njaypi.Kit.Kit;
 import net.njay.njaypi.Player.NJayPlayer;
 
+import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
 /**
@@ -15,6 +17,8 @@ public class Team {
 	private ArrayList<String> players = new ArrayList<String>();
 	private TeamAttributeList tAttList = new TeamAttributeList();
 	private ArrayList<Kit> availableKits = new ArrayList<Kit>();
+	private Location spawn;
+	private TeamColor color;
 	
 	public Team(String... players){
 		for (String player : players)
@@ -43,6 +47,21 @@ public class Team {
 	}
 	public TeamAttributeList getAttributeList(){
 		return this.tAttList;
+	}
+	public void setTeamColor(TeamColor color){
+		this.color = color;
+	}
+	public TeamColor getColor(){
+		return this.color;
+	}
+	public void setSpawn(Location l){
+		this.spawn = l;
+	}
+	public Location getSpawn(){
+		return this.spawn;
+	}
+	public void applyConfig(TeamConfig config){
+		
 	}
 	
 	/**

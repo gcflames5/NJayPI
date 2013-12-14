@@ -29,7 +29,7 @@ public class DamageModule extends ListenerModule{
 			allowMobsToDamagePlayers = true, allowBurnDamage = true, allowDrownDamage = true;
 	
 	public DamageModule(){
-		setEnabled(true);
+		this.setEnabled(true);
 	}
 	
 	public void addTeam(Team t){

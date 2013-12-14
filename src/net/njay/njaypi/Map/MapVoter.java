@@ -19,6 +19,7 @@ public class MapVoter {
 	}
 	
 	public boolean submitVote(String playerName, int vote){
+		vote-=1;
 		if (playerHasVoted(playerName))
 			return false;
 		if (maps == null || vote > maps.size())
@@ -33,6 +34,14 @@ public class MapVoter {
 	
 	public void setMapList(List<Map> maps){
 		this.maps = maps;
+	}
+	
+	public List<Map> getMapList(){
+		return this.maps;
+	}
+	
+	public int getMaxRange(){
+		return maps.size();
 	}
 	
 	public boolean playerHasVoted(String playerName){

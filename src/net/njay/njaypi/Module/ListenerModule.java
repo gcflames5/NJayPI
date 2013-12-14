@@ -8,7 +8,7 @@ import org.bukkit.event.Listener;
 public abstract class ListenerModule extends Module implements Listener{
 
 	public ListenerModule(){
-		setEnabled(true);
+		super.setEnabled(true);
 	}
 	
 	@Override

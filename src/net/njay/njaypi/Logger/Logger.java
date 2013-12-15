@@ -12,7 +12,7 @@ public class Logger {
 		Bukkit.getLogger().log(level, "[NJay]" + msg);
 	}
 	
-	public static void info(String msg){
+	public static void info(String msg){   
 		log(msg, Level.INFO);
 	}
 

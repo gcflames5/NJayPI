@@ -2,7 +2,6 @@ package net.njay.njaypi.Team;
 
 import java.util.ArrayList;
 
-import net.njay.njaypi.Config.TeamConfig;
 import net.njay.njaypi.Kit.Kit;
 import net.njay.njaypi.Player.NJayPlayer;
 
@@ -60,9 +59,9 @@ public class Team {
 	public Location getSpawn(){
 		return this.spawn;
 	}
-	public void applyConfig(TeamConfig config){
+	//public void applyConfig(TeamConfig config){
 		
-	}
+	//}
 	
 	/**
 	 * Sets the local Team variable of each NJayPlayer on
@@ -72,5 +71,13 @@ public class Team {
 		for (String playerName : this.players){
 			NJayPlayer.getPlayer(playerName).setTeam(this);
 		}
+	}
+
+	public ArrayList<Kit> getAvailableKits() {
+		return availableKits;
+	}
+
+	public void setAvailableKits(ArrayList<Kit> availableKits) {
+		this.availableKits = availableKits;
 	}
 }

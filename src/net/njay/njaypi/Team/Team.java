@@ -72,4 +72,12 @@ public class Team {
 			NJayPlayer.getPlayer(playerName).setTeam(this);
 		}
 	}
+
+	public ArrayList<Kit> getAvailableKits() {
+		return availableKits;
+	}
+
+	public void setAvailableKits(ArrayList<Kit> availableKits) {
+		this.availableKits = availableKits;
+	}
 }

@@ -1,16 +1,16 @@
 package net.njay.njaypi.Config;
-/*
-import net.njay.njaypi.Game.GameMode;
+
+import org.bukkit.command.defaults.GameModeCommand;
+
 
 public class TeamConfig extends APIConfig{
 	
-	GameMode gametype;
+	GameModeCommand gametype;
 	String teamPath;
 	
-public TeamConfig(GameMode type, String teamPath){
+public TeamConfig(GameModeCommand type, String teamPath){
 		this.gametype = type;
 		this.teamPath = teamPath;
 	}
 	
 }
-*/

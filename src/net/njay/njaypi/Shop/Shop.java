@@ -2,6 +2,8 @@ package net.njay.njaypi.Shop;
 
 import java.util.List;
 
+import net.njay.njaypi.Plugin.NJayPI;
+
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -17,7 +19,7 @@ public class Shop implements Listener {
 	private String title = "Shop";
 	private int inventorySize = 27;
 	private Runnable onClick = new Runnable() {
-		
+		int a;
 		@Override
 		public void run() {
 			// TODO Auto-generated method stub
@@ -27,6 +29,7 @@ public class Shop implements Listener {
 	
 	public Shop(List<ShopItem> items){
 		this.items = items;
+		Bukkit.getPluginManager().registerEvents(this, NJayPI.getPlugin());
 	}
 	
 	public Inventory generateShop() {

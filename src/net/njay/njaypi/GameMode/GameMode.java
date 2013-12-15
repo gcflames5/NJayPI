@@ -1,4 +1,4 @@
-package net.njay.njaypi.Game;
+package net.njay.njaypi.GameMode;
 
 public enum GameMode {
 

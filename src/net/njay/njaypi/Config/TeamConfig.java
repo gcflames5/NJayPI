@@ -3,8 +3,6 @@ package net.njay.njaypi.Config;
 
 import org.bukkit.command.defaults.GameModeCommand;
 
-package net.njay.njaypi.Config;
-
 import org.bukkit.command.defaults.GameModeCommand;
 
 
